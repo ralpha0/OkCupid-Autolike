@@ -15,7 +15,7 @@
 // ==/UserScript==
 
 setInterval(function(){
-	var desktopButton = document.getElementsByClassName("cardactions-action--like")[0];
+	var desktopButton = document.getElementsByClassName("likes-pill-button-inner")[0];
 	var mobileButton = document.getElementsByClassName("quickmatch-button-like")[0];
 	
 	(desktopButton || mobileButton).click();
